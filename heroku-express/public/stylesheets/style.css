@@ -1,0 +1,20 @@
+.ptext {
+  color: rgba(60, 60, 60, 0.3); }
+
+a {
+  font-size: 1.05rem; }
+  a:hover {
+    color: rgba(60, 60, 60, 0.3); }
+
+body {
+  margin-left: 1.2rem; }
+
+h1 {
+  font-weight: 100; }
+
+h6 {
+  margin-top: -1.3rem;
+  margin-bottom: 2rem;
+  font-weight: 100; }
+
+/*# sourceMappingURL=style.css.map */

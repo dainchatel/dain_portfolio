@@ -1,0 +1,30 @@
+$pcolor: rgba(60, 60, 60, .3);
+
+.ptext {
+  color: $pcolor;
+}
+
+a {
+  font-size: 1.05rem;
+  &:hover {
+    color: $pcolor;
+  }
+}
+
+body {
+  margin-left: 1.2rem;
+}
+
+@mixin setWeight($val) {
+  font-weight: $val;
+}
+
+h1 {
+  @include setWeight(100);
+}
+
+h6 {
+  margin-top: -1.3rem;
+  margin-bottom: 2rem;
+  @include setWeight(100);
+}
